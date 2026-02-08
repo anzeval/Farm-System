@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bfa53b32f1e4493a6078364a711814, type: 3}
+  m_Name: Strawberry
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  ItemType: 1
+  Icon: {fileID: -7833671090200325546, guid: 688a17423db43294093ccb5c6916461b, type: 3}
+  Prefab: {fileID: 1489452769988748258, guid: b0e7f6c003e2949629acde6b6e5dc5ab, type: 3}
+  MaxStack: 30

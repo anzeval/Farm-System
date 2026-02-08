@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94bfa53b32f1e4493a6078364a711814, type: 3}
+  m_Name: Wheat seeds
+  m_EditorClassIdentifier: Assembly-CSharp::ItemSO
+  ItemType: 1
+  Icon: {fileID: -956252262595852801, guid: 688a17423db43294093ccb5c6916461b, type: 3}
+  Prefab: {fileID: 503930286832073089, guid: f9c7bc9b892e5488a9fac8b3a79995a3, type: 3}

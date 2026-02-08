@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &620972797073527527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1266120974486805736, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_Name
+      value: Watering Can
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400257308555331203, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8561806557982860685, guid: 688a17423db43294093ccb5c6916461b, type: 3}
+    - target: {fileID: 5400257308555331203, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516837831713094348, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1266120974486805736, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1533954154495221521}
+  m_SourcePrefab: {fileID: 100100000, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+--- !u!1 &1804827624083197455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1266120974486805736, guid: 18dd1a2ab702b4e95b89f049613cd6f7, type: 3}
+  m_PrefabInstance: {fileID: 620972797073527527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1533954154495221521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804827624083197455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5e49b85ba294c8bb0c4d7e06bfbf4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WateringCan

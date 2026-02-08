@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f0bae39b5b4435997a7084374ef6c2, type: 3}
+  m_Name: eggplant
+  m_EditorClassIdentifier: Assembly-CSharp::SeedSO
+  cropType: 7
+  harvestItem: {fileID: 11400000, guid: b3cace17e7c1540e18d3b72040fecc7f, type: 2}
+  harvestAmount: 1
+  cropPlanted: {fileID: -5932848443960681115, guid: b6442a289c143044196d4aeda5e7ba25, type: 3}
+  cropGrowing1: {fileID: -199204283, guid: b6442a289c143044196d4aeda5e7ba25, type: 3}
+  cropGrowing2: {fileID: -437190660, guid: b6442a289c143044196d4aeda5e7ba25, type: 3}
+  cropGrowing3: {fileID: 1710733137, guid: b6442a289c143044196d4aeda5e7ba25, type: 3}
+  cropRipe: {fileID: 1975525465, guid: b6442a289c143044196d4aeda5e7ba25, type: 3}
