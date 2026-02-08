@@ -1,6 +1,8 @@
 # Farm-System
 Grid-based farming system with a data-driven architecture. The world is represented as a cell grid with entities (grass, rocks, trees) separated from visual logic. Tools interact via polymorphism, loot and inventory use events, and systems are decoupled for scalability and clean Unity lifecycle handling.
 
+<img width="962" height="541" alt="Screenshot 2026-02-08 at 21 41 23" src="https://github.com/user-attachments/assets/163d4adb-d9f4-4027-8f6f-f91e81354dda" />
+
 Overview
 This project is a grid-based farming system built in Unity with a data-driven and entity-based architecture.
 The system focuses on clean separation between data, logic, and visuals, as well as scalable interactions between tools and world objects.
@@ -14,6 +16,7 @@ Grid & Cell Data
 
 -No direct references to Unity GameObjects inside data
 
+<img width="966" height="538" alt="Screenshot 2026-02-08 at 21 42 31" src="https://github.com/user-attachments/assets/2aec2d24-b6f7-45e3-81a7-8f27780905b9" />
 
 Entity-Based World Objects
 
@@ -23,6 +26,7 @@ Entity-Based World Objects
 
 -Different behaviors are handled through polymorphism instead of conditional logic
 
+<img width="958" height="535" alt="Screenshot 2026-02-08 at 21 44 17" src="https://github.com/user-attachments/assets/52ccb275-20d6-4fba-ae8d-864b52410288" />
 
 Tool Interaction System
 
@@ -31,7 +35,6 @@ Tool Interaction System
 -Entities decide how they react to a specific tool
 
 -Supports single-hit destruction (grass) and multi-hit objects (rocks, trees)
-
 
 Event-Driven Architecture
 
@@ -48,6 +51,7 @@ Procedural Growth
 
 -Growth logic is independent from visual representation
 
+<img width="959" height="540" alt="Screenshot 2026-02-08 at 21 44 31" src="https://github.com/user-attachments/assets/c910450e-2748-408c-a3ff-b0b68c243bd3" />
 
 Inventory & Loot Flow
 
